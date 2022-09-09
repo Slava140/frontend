@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 800px;
+    padding: 15px 160px ;
+    background: linear-gradient(60deg, rgba(244, 249, 226, 1) 50%, rgba(0, 0, 0, 0)  90%);
+}
+
+.icon-word {
+    color: #62D0DF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact-btn {
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: #ffffff;
+    background-color: #62D0DF;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 180px;
+}
+
+.header-navigation {
+    display: flex;
+    font-size: 14px;
+}
+
+.header-navigation > li {
+    padding: 10px 10px;
+}
+
+.header-navigation > .selected {
+    font-weight: bold;
+    border-bottom: solid 2px #22356F;
+}
+
+.header-navigation > .nav-item > a {
+    color: #22356F;
+}
+
+.header-promo {
+    display: flex;
+    width: 510px;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #22356F;
+    padding-bottom: 60px;
+}
+
+.description {
+    font-size: 24px;
+    line-height: 200%;
+    padding-bottom: 50px;
+    color: #22356F;
+}
+
+.who_what-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    padding-bottom: 60px;
+}
+
+.who {
+    width: 150px;
+    height: 50px;
+    background-color: #F9B640;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.what {
+    width: 150px;
+    height: 50px;
+    color: #FAB63E;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    height: 800px;
+    width: auto;
+}
