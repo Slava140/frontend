@@ -191,3 +191,53 @@ h1 {
     font-size: 24px;
     line-height: 120%;
 }
+
+.help-container p {
+    text-align: center;
+    font-size: 16px;
+    color: rgba(34, 53, 111, 0.5);
+    padding: 25px;
+}
+
+.help-container ul {
+    display: flex;
+}
+
+.help-container li {
+    display: block;
+    width: 25vw;
+    aspect-ratio: 1/1;
+    padding-top: 95px;
+    text-align: center;
+}
+
+.help-container li span {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    border-top: solid 1px #ffffff;
+    padding: 25px 15px 0px 15px;
+}
+
+.help-container li:nth-child(1) {
+    background-color: rgba(255, 226, 222, 1);
+}
+
+.help-container li:nth-child(2) {
+    background-color: rgba(196, 231, 105, 1);
+}
+
+.help-container li:nth-child(3) {
+    background-color: rgba(98, 208, 223, 1);
+}
+
+.help-container li:nth-child(4) {
+    background-color: rgba(0, 82, 193, 1);
+}
+
+.help-container li::before {
+    color: rgba(233, 183, 48, 1);
+    content: "●";
+    /* padding-right: 15px; */
+}
+
