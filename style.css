@@ -97,7 +97,7 @@ h1 {
     padding-bottom: 60px;
 }
 
-.description {
+.header-description {
     font-size: 24px;
     line-height: 200%;
     padding-bottom: 50px;
@@ -132,11 +132,62 @@ h1 {
 }
 
 
-img {
+.header-background{
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
     height: 800px;
     width: auto;
+}
+
+.women-container {
+    display: flex;
+    background-color: #62D0DF;
+    color: #ffffff;
+    height: 600px;
+    align-items: center;
+}
+
+.women-question {
+    padding-bottom: 75px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.women-description {
+    width: 65%;
+    /* padding: 150px; */
+    padding: 0px 150px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.women-description b {
+    font-size: 24px;
+}
+
+.women-image {
+    /* background-color: #F9B640; */
+    height: 100%;
+    width: 35%;
+}
+
+.women-image img {
+    height: 100%;
+}
+
+.about-us {
+    display: grid;
+    padding: 150px 100px 50px 100px;
+    grid-template-columns: 2fr 3fr 2fr;
+}
+
+.about-us p {
+    color: #22356F;
+}
+
+.about-description {
+    font-size: 24px;
+    line-height: 120%;
 }
